@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-navbar {
+    height: 50spx;
+    background: #1F2939;
+    padding: 20px 0px 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    margin-right: auto;
+}
+
+.navbar-logo a {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1 1 auto;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.navitems {
+    display: flex;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.navitems a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+}
