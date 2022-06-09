@@ -5,10 +5,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.dbg {
+    background: #1F2939;
+}
+
+/* Nav Bar */
+
 .hero-navbar {
     height: 50spx;
-    background: #1F2939;
-    padding: 20px 0px 20px 50px;
+    /* background: #1F2939; */
+    padding: 20px 50px 20px 50px;
     display: flex;
     align-items: center;
 }
@@ -29,7 +35,7 @@ body {
 
 .navitems {
     display: flex;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     margin-left: auto;
 }
 
@@ -39,4 +45,57 @@ body {
     color: #e5e7eb;
     text-align: center;
     padding: 10px;
+}
+
+/* Hero */
+
+.hero {
+    padding: 50px;
+    display: flex;
+    text-align: left;
+}
+
+.text {
+    flex-basis: 400px;
+    display: flex;
+    text-align: left;
+    margin-right: 50px;
+    flex-direction: column;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 35px;
+    width:  120px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.text button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+.img img {
+    height: 300px;
+    width: auto;
+    background: grey;
 }
